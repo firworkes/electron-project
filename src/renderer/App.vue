@@ -5,10 +5,13 @@
         <router-link to="/">Draggable</router-link>
       </li>
       <li>
-        <router-link to="/table">Table</router-link>
+        <router-link to="/MyTable">EditMyTable</router-link>
       </li>
       <li>
         <router-link to="/mytablecolumn">MyTableColumn</router-link>
+      </li>
+      <li>
+        <router-link to="/table">table</router-link>
       </li>
     </ul>
     <router-view></router-view>

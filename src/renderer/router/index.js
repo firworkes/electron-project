@@ -11,14 +11,19 @@ export default new Router({
       component: require('@/page/Index').default
     },
     {
-      path: '/table',
-      name: 'table',
+      path: '/MyTable',
+      name: 'MyTable',
       component: require('@/page/MyTable').default
     },
     {
       path: '/mytablecolumn',
       name: 'mytablecolumn',
       component: require('@/page/MyTableColumn').default
+    },
+    {
+      path: '/table',
+      name: 'table',
+      component: require('@/page/Table').default
     },
     {
       path: '*',
