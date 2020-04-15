@@ -16,6 +16,10 @@ module.exports = {
     'html'
   ],
   'rules': {
+    "no-unneeded-ternary": 0,//禁止不必要的嵌套 var isYes = answer === 1 ? true : false;
+    "camelcase": 0,//强制驼峰法命名
+    "no-cond-assign": 0,//禁止在条件表达式中使用赋值语句
+    "no-constant-condition": 0,//禁止在条件中使用常量表达式 if(true) if(1)
     "no-label-var": 0, //label名不能与var声明的变量名相同
     "no-inner-declarations": [0, "functions"], //禁止在块语句中使用声明（变量或函数）
 

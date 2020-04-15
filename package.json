@@ -66,6 +66,7 @@
     "kityminder-core": "^1.4.50",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
+    "mind-elixir": "^0.9.5",
     "moment": "^2.24.0",
     "script-loader": "^0.7.2",
     "vue": "^2.5.16",
